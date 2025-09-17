@@ -1,0 +1,22 @@
+Feature,Claude Code Capabilities,Claude Flow Capabilities,When to Use Claude Code,When to Use Claude Flow,Integration Strategy
+Primary Purpose,✅ AI-powered development assistant,✅ AI agent orchestration platform,Individual AI-assisted coding,Multi-agent coordination and automation,Claude Code for coding Claude Flow for orchestration
+Agent Architecture,✅ Single AI assistant model,✅ Hive-mind with 64+ specialized agents,Simple AI interactions,Complex multi-agent workflows,Claude Code for direct help Claude Flow for coordinated tasks
+Tool Ecosystem,✅ MCP tools for development,✅ 87+ MCP tools + neural networks,Standard development tasks,Advanced AI orchestration,Claude Code for dev tools Claude Flow for specialized automation
+Memory System,✅ Session-based context,✅ Persistent SQLite with 12 tables,Short-term project memory,Long-term project knowledge,Claude Code for current session Claude Flow for project history
+Coordination Strategy,❌ No multi-agent coordination,✅ Queen-led hierarchical coordination,Single-threaded development,Parallel task execution,Claude Code for linear work Claude Flow for parallel coordination
+Neural Capabilities,❌ Standard AI responses,✅ 27+ neural models with WASM acceleration,Traditional AI assistance,Pattern recognition and learning,Claude Code for standard help Claude Flow for intelligent automation
+Workflow Automation,✅ Basic command automation,✅ Advanced workflow orchestration,Simple task automation,Complex multi-step processes,Claude Code for simple automation Claude Flow for complex workflows
+Performance Optimization,✅ Standard AI performance,✅ 2.8-4.4x speed improvement through coordination,Individual productivity gains,Team/project-wide efficiency,Claude Code for personal efficiency Claude Flow for team acceleration
+Learning Capabilities,❌ No learning from sessions,✅ Continuous learning and pattern recognition,Static AI assistance,Adaptive AI that improves over time,Claude Code for consistent help Claude Flow for evolving assistance
+Project Scope,✅ File and directory operations,✅ Full project lifecycle management,Individual files or components,Complete project orchestration,Claude Code for component work Claude Flow for project management
+Complexity Handling,✅ Handles moderate complexity,✅ Manages enterprise-level complexity,Standard development tasks,Large-scale system architecture,Claude Code for simple tasks Claude Flow for complex systems
+Setup Requirements,✅ Simple installation and login,✅ Requires initialization and configuration,Quick start development,Planned project setup,Claude Code for immediate use Claude Flow for structured projects
+Cost Efficiency,✅ Pay-per-use model,✅ Optimized token usage (32.3% reduction),Variable usage costs,Reduced overall AI costs through efficiency,Claude Code for light usage Claude Flow for heavy automation
+Collaboration Model,✅ Individual developer focus,✅ Multi-agent collaboration simulation,Solo development work,Team-like AI coordination,Claude Code for individual work Claude Flow for simulated team dynamics
+Error Handling,✅ Basic error reporting,✅ Self-healing and fault tolerance,Manual error resolution,Automated error recovery,Claude Code for debugging Claude Flow for resilient systems
+Deployment Support,✅ Local development focus,✅ Production deployment orchestration,Development environment,Full deployment pipeline,Claude Code for dev work Claude Flow for deployment automation
+Documentation Generation,✅ Code comments and basic docs,✅ Comprehensive project documentation,Code-level documentation,Project-wide documentation,Claude Code for inline docs Claude Flow for complete documentation
+Testing Capabilities,✅ Basic test generation,✅ Comprehensive testing orchestration,Unit test creation,Full testing strategy implementation,Claude Code for simple tests Claude Flow for test automation
+Security Features,✅ Basic security scanning,✅ Advanced security orchestration,Individual security checks,Comprehensive security strategy,Claude Code for security review Claude Flow for security automation
+Scalability,✅ Scales with individual usage,✅ Scales with project complexity,Personal productivity scaling,Enterprise-level scaling,Claude Code for individual scaling Claude Flow for organizational scaling
+Integration Complexity,✅ Simple MCP integration,✅ Complex multi-system integration,Basic tool integration,Advanced system orchestration,Claude Code for simple integrations Claude Flow for complex archite

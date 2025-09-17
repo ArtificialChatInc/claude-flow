@@ -1,0 +1,15 @@
+Component,Claude-Flow (Local Dev),AWS (Production/Enterprise),Decision Criteria,Integration Strategy
+Application Code,✅ Generate prototype iterate,❌ Deploy via CI/CD pipelines,Code creation vs deployment,Use Claude-Flow to generate AWS CodePipeline to deploy
+Database Schema,✅ Design test migrations,✅ RDS/Aurora for production,Complexity & scale,Design locally deploy to RDS with proper backups
+API Development,✅ Build test endpoints,✅ API Gateway + Lambda/ECS,Development vs scaling,Prototype with Claude-Flow scale with AWS managed services
+Infrastructure as Code,✅ Generate Terraform/CDK,✅ Deploy via CloudFormation,Template creation vs execution,Generate IaC with Claude-Flow deploy with AWS native tools
+Authentication,✅ Prototype JWT/OAuth,✅ Cognito for production,Security requirements,Test locally use Cognito for enterprise features
+File Storage,✅ Local file operations,✅ S3 for persistence,Data durability needs,Develop with local storage migrate to S3 for production
+Monitoring/Logging,✅ Basic console logging,✅ CloudWatch/X-Ray,Observability requirements,Start simple add AWS monitoring for production insights
+Secrets Management,✅ .env files for dev,✅ Secrets Manager/Parameter Store,Security compliance,Use .env locally AWS Secrets Manager for production
+Container Orchestration,✅ Docker compose generation,✅ ECS/EKS for scaling,Scale & availability needs,Generate Docker configs deploy to ECS/EKS
+CI/CD Pipelines,✅ Generate pipeline configs,✅ CodePipeline execution,Automation requirements,Create configs with Claude-Flow run on AWS CodePipeline
+Load Balancing,❌ Not needed locally,✅ ALB/NLB for production,Traffic distribution needs,Skip locally implement ALB for production traffic
+Auto Scaling,❌ Not applicable,✅ Auto Scaling Groups,Dynamic capacity needs,Design locally implement ASG for variable loads
+Backup & Recovery,✅ Generate backup scripts,✅ AWS Backup service,Business continuity,Script with Claude-Flow automate with AWS Backup
+Security Scanning,✅ Generate security configs,✅ Inspector/GuardDuty,Compliance requirements,Configure locally monitor with AWS security services

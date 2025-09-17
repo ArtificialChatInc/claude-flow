@@ -1,0 +1,21 @@
+Feature,Kiro Capabilities,Claude Code Capabilities,When to Use Kiro,When to Use Claude Code,Integration Strategy
+IDE Integration,✅ Built-in IDE with file explorer,❌ Terminal-based interface,Full development environment needed,Quick command-line tasks,Use Kiro as primary IDE with Claude Code for specialized AI tasks
+File Management,✅ Visual file explorer and editor,✅ File operations via commands,Managing complex project structures,Automated file operations,Kiro for navigation Claude Code for bulk operations
+AI Assistant Integration,✅ Native chat with codebase context,✅ Advanced AI with MCP tools,Conversational development workflow,Specialized AI orchestration tasks,Kiro for general AI help Claude Code for advanced automation
+MCP Tool Support,✅ Basic MCP integration,✅ Advanced MCP with 87+ tools,Standard development workflows,Complex multi-agent coordination,Kiro for simple MCP Claude Code for advanced orchestration
+Code Generation,✅ Interactive code suggestions,✅ Autonomous code generation,Guided development with human oversight,Fully automated code creation,Kiro for collaborative coding Claude Code for autonomous generation
+Project Scaffolding,✅ Template-based project creation,✅ AI-driven architecture generation,Standard project templates,Custom complex architectures,Kiro for standard setups Claude Code for innovative architectures
+Debugging Support,✅ Integrated debugger and tools,✅ AI-powered debugging analysis,Interactive debugging sessions,Automated issue detection and fixes,Kiro for manual debugging Claude Code for automated analysis
+Git Integration,✅ Visual git interface,✅ Automated git operations,Manual version control workflow,Automated commit and branch management,Kiro for git visualization Claude Code for git automation
+Terminal Access,✅ Integrated terminal,✅ Primary interface,Occasional command execution,Heavy command-line workflows,Kiro for GUI tasks Claude Code for CLI-heavy work
+Collaboration Features,✅ Team collaboration tools,❌ Individual developer focused,Team development projects,Solo development or automation,Kiro for team work Claude Code for individual productivity
+Extension Ecosystem,✅ Rich extension marketplace,✅ MCP server ecosystem,Standard IDE extensions needed,Specialized AI tools required,Kiro extensions for general dev Claude Code MCP for AI tools
+Performance Monitoring,✅ Basic performance insights,✅ Advanced AI performance tracking,Standard development metrics,AI workflow optimization,Kiro for basic metrics Claude Code for AI-specific analytics
+Workspace Management,✅ Multi-workspace support,✅ Project-specific configuration,Multiple concurrent projects,Focused single-project work,Kiro for project switching Claude Code for deep project work
+Code Intelligence,✅ Standard IntelliSense,✅ AI-powered code understanding,Traditional code completion,Advanced code analysis and generation,Kiro for standard completion Claude Code for intelligent analysis
+Automation Capabilities,✅ Basic task automation,✅ Advanced AI orchestration,Simple repetitive tasks,Complex multi-step automation,Kiro for simple automation Claude Code for complex workflows
+Learning Curve,✅ Familiar IDE experience,✅ Requires AI workflow understanding,New developers or IDE switchers,Developers comfortable with AI tools,Start with Kiro progress to Claude Code
+Cost Model,✅ Subscription-based,✅ Usage-based (Claude Pro required),Predictable monthly costs,Variable usage-based costs,Kiro for budget predictability Claude Code for usage optimization
+Offline Capabilities,✅ Full offline development,❌ Requires internet for AI features,Limited internet environments,Always-connected development,Kiro for offline work Claude Code for online AI features
+Customization,✅ Extensive UI customization,✅ MCP server customization,Personalized development environment,Specialized AI tool configuration,Kiro for UI preferences Claude Code for AI customization
+Enterprise Features,✅ Team management and compliance,✅ Advanced AI governance,Enterprise development teams,AI-first development organizations,Kiro for team management Claude Code for AI governance
