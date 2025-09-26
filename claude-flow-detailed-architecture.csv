@@ -1,0 +1,70 @@
+Component Type,Name,Description,Capabilities,Technical Details,Status
+SPECIALIZED AGENTS,coder,Core development agent,Code generation and implementation,Handles file operations and code structure,Active
+SPECIALIZED AGENTS,reviewer,Code review specialist,Quality assurance and code analysis,Performs static analysis and best practices review,Active
+SPECIALIZED AGENTS,tester,Testing automation agent,Test creation and execution,Generates unit tests and integration tests,Active
+SPECIALIZED AGENTS,planner,Project planning coordinator,Task breakdown and scheduling,Creates development roadmaps and timelines,Active
+SPECIALIZED AGENTS,researcher,Information gathering agent,Requirements analysis and research,Analyzes patterns and gathers technical information,Active
+SPECIALIZED AGENTS,hierarchical-coordinator,Top-down coordination agent,Manages agent hierarchies,Implements command and control structures,Active
+SPECIALIZED AGENTS,mesh-coordinator,Peer-to-peer coordination agent,Manages distributed agent networks,Handles mesh topology coordination,Active
+SPECIALIZED AGENTS,adaptive-coordinator,Dynamic coordination agent,Adapts coordination strategies,Adjusts coordination based on performance,Active
+SPECIALIZED AGENTS,collective-intelligence-coordinator,Swarm intelligence manager,Manages collective decision making,Implements swarm intelligence algorithms,Active
+SPECIALIZED AGENTS,swarm-memory-manager,Memory coordination agent,Manages distributed memory,Handles memory synchronization across agents,Active
+SPECIALIZED AGENTS,byzantine-coordinator,Fault-tolerant coordinator,Handles Byzantine fault tolerance,Manages consensus in unreliable networks,Active
+SPECIALIZED AGENTS,raft-manager,Consensus protocol manager,Implements Raft consensus algorithm,Manages leader election and log replication,Active
+SPECIALIZED AGENTS,gossip-coordinator,Information propagation agent,Manages gossip protocols,Handles information dissemination,Active
+SPECIALIZED AGENTS,consensus-builder,Consensus formation agent,Builds agreement among agents,Implements various consensus mechanisms,Active
+SPECIALIZED AGENTS,crdt-synchronizer,Conflict-free data synchronizer,Manages CRDT operations,Handles conflict-free replicated data types,Active
+SPECIALIZED AGENTS,quorum-manager,Quorum-based decision agent,Manages quorum-based decisions,Implements quorum consensus protocols,Active
+SPECIALIZED AGENTS,security-manager,Security enforcement agent,Manages security policies,Implements security protocols and validation,Active
+SPECIALIZED AGENTS,perf-analyzer,Performance analysis agent,Analyzes system performance,Monitors and optimizes performance metrics,Active
+SPECIALIZED AGENTS,performance-benchmarker,Benchmarking specialist,Conducts performance benchmarks,Measures and compares performance,Active
+SPECIALIZED AGENTS,task-orchestrator,Task coordination agent,Orchestrates complex workflows,Manages task dependencies and execution,Active
+SPECIALIZED AGENTS,memory-coordinator,Memory management agent,Coordinates memory operations,Manages memory allocation and cleanup,Active
+SPECIALIZED AGENTS,smart-agent,Intelligent decision agent,Makes autonomous decisions,Implements AI-driven decision making,Active
+SQLITE TABLES,agents,Agent registry and metadata,Stores agent information and status,"id, swarm_id, name, type, role, capabilities, status, performance_score, task_count, success_rate, last_active, created_at, metadata",Production
+SQLITE TABLES,swarms,Swarm coordination data,Manages swarm configurations,Stores swarm topology and coordination data,Production
+SQLITE TABLES,tasks,Task management and tracking,Tracks task execution and status,Manages task lifecycle and dependencies,Production
+SQLITE TABLES,messages,Inter-agent communication,Stores agent messages and communication,Handles message routing and history,Production
+SQLITE TABLES,sessions,Session management,Tracks agent sessions and contexts,Manages session state and persistence,Production
+SQLITE TABLES,collective_memory,Shared knowledge base,Stores collective agent knowledge,Implements shared memory across agents,Production
+SQLITE TABLES,knowledge_base,Persistent knowledge storage,Stores learned patterns and information,Maintains long-term knowledge retention,Production
+SQLITE TABLES,consensus_decisions,Consensus tracking,Records consensus decisions,Tracks decision history and outcomes,Production
+SQLITE TABLES,consensus_votes,Voting mechanism data,Stores voting information,Manages voting processes and results,Production
+SQLITE TABLES,performance_metrics,Performance monitoring,Tracks system performance,Stores metrics and performance data,Production
+SQLITE TABLES,memories,Memory storage (separate DB),Stores agent memories,Persistent memory across sessions,Production
+MCP TOOLS,claude-flow,Core orchestration tools,Agent spawning and coordination,Provides 20+ orchestration commands,Active
+MCP TOOLS,ruv-swarm,Advanced swarm intelligence,Neural network integration,Provides 80+ specialized swarm tools,Active
+MCP TOOLS,flow-nexus,Cloud platform integration,Cloud execution environments,Sandbox creation and neural network access,Alpha
+MCP TOOLS,swarm_init,Swarm initialization,Creates swarm topologies,Initializes coordination structures,Active
+MCP TOOLS,agent_spawn,Agent creation,Spawns specialized agents,Creates agents with specific capabilities,Active
+MCP TOOLS,task_orchestrate,Task coordination,Orchestrates complex workflows,Manages multi-agent task execution,Active
+MCP TOOLS,hive_mind_spawn,Hive mind creation,Creates intelligent swarms,Spawns coordinated agent collectives,Active
+MCP TOOLS,memory_store,Memory management,Stores persistent memories,Manages long-term memory storage,Active
+MCP TOOLS,memory_retrieve,Memory access,Retrieves stored memories,Accesses historical memory data,Active
+MCP TOOLS,consensus_vote,Voting mechanism,Manages consensus voting,Implements distributed voting protocols,Active
+MCP TOOLS,performance_track,Performance monitoring,Tracks system metrics,Monitors performance and efficiency,Active
+MCP TOOLS,neural_train,Neural network training,Trains neural models,Implements distributed neural training,Alpha
+MCP TOOLS,pattern_learn,Pattern recognition,Learns from data patterns,Implements pattern recognition algorithms,Alpha
+MCP TOOLS,swarm_coordinate,Swarm coordination,Coordinates swarm behavior,Manages swarm intelligence protocols,Active
+MCP TOOLS,byzantine_consensus,Byzantine fault tolerance,Handles Byzantine failures,Implements Byzantine consensus protocols,Active
+MCP TOOLS,raft_consensus,Raft consensus protocol,Manages Raft consensus,Implements leader election and replication,Active
+MCP TOOLS,gossip_protocol,Gossip communication,Manages gossip protocols,Handles information propagation,Active
+MCP TOOLS,crdt_sync,CRDT synchronization,Synchronizes conflict-free data,Manages CRDT operations,Active
+MCP TOOLS,security_validate,Security validation,Validates security policies,Implements security checks,Active
+MCP TOOLS,workflow_orchestrate,Workflow management,Orchestrates complex workflows,Manages workflow execution,Active
+MCP TOOLS,batch_process,Batch operations,Processes batch operations,Handles bulk operations efficiently,Active
+NEURAL MODELS,pattern-recognition,Pattern recognition neural network,Identifies patterns in data,Implements CNN-based pattern recognition,Alpha
+NEURAL MODELS,decision-tree,Decision making neural network,Makes autonomous decisions,Implements decision tree algorithms,Alpha
+NEURAL MODELS,swarm-intelligence,Swarm behavior neural network,Models swarm intelligence,Implements swarm optimization algorithms,Alpha
+NEURAL MODELS,consensus-prediction,Consensus prediction model,Predicts consensus outcomes,Models consensus formation patterns,Alpha
+NEURAL MODELS,performance-optimization,Performance optimization model,Optimizes system performance,Implements performance tuning algorithms,Alpha
+NEURAL MODELS,memory-compression,Memory compression model,Compresses memory data,Implements memory optimization techniques,Alpha
+NEURAL MODELS,task-scheduling,Task scheduling neural network,Optimizes task scheduling,Implements scheduling optimization,Alpha
+NEURAL MODELS,resource-allocation,Resource allocation model,Optimizes resource usage,Implements resource optimization algorithms,Alpha
+NEURAL MODELS,fault-prediction,Fault prediction model,Predicts system failures,Implements predictive maintenance,Alpha
+NEURAL MODELS,load-balancing,Load balancing neural network,Optimizes load distribution,Implements dynamic load balancing,Alpha
+NEURAL MODELS,security-anomaly,Security anomaly detection,Detects security threats,Implements anomaly detection algorithms,Alpha
+NEURAL MODELS,communication-optimization,Communication optimization model,Optimizes inter-agent communication,Implements communication efficiency,Alpha
+NEURAL MODELS,workflow-prediction,Workflow prediction model,Predicts workflow outcomes,Models workflow execution patterns,Alpha
+NEURAL MODELS,adaptive-learning,Adaptive learning model,Learns from system behavior,Implements continuous learning algorithms,Alpha
+NEURAL MODELS,distributed-training,Distributed training coordinator,Coordinates distributed neural training,Manages multi-node training processes,Alpha
