@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "claude-flow": {
+      "command": "npx",
+      "args": ["claude-flow@alpha", "mcp", "start"],
+      "disabled": false,
+      "autoApprove": [
+        "swarm_init",
+        "agent_spawn",
+        "memory_store",
+        "memory_retrieve"
+      ]
+    }
+  }
+}
